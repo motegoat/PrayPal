@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Noto+Sans+Hebrew:wght@400;500;800&display=swap');
+
+body{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    background-image: url(/graphics/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heb-date{
+    background-color: rgba(225, 225, 225, 0.8);
+    border-radius: 10px;
+    color: #000;
+    width: 85%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+#list-pray-item{
+    background-color: rgba(225, 225, 225, 0.8);
+    border-radius: 10px;
+    color: #000;
+    width: 85%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+    
+
+}
+
+#instruction{
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    font-weight: 100;
+}
+
+.paragraph-special{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+b {
+    font-weight: bold;
+    font-size: 0.83em;
+}
+
+#birkat-hamazon-label {
+    display: flex;
+    justify-content: flex-end; 
+    font-weight: bolder;
+  }
+
+#birkat-hamazon-cbx, #birkat-hamazon-text {
+    display: none;
+}
+
+
+#birkat-hamazon-cbx:checked + #birkat-hamazon-text {
+    display: block;
+}
+
+#brocha-achrona-label{
+    display: flex;
+    justify-content: flex-end; 
+    font-weight: bolder;
+}
+
+#brocha-achrona-cbx, .brocha-achrona-text{
+    display: none;
+}
+
+#brocha-achrona-cbx:checked + .brocha-achrona-text{
+    display: block;
+}
+
