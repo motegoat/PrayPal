@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Noto Sans Hebrew', sans-serif;
-    background-image: url(/graphics/background.jpg);
+    background-image: url('/graphics/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
